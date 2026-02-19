@@ -22,12 +22,30 @@ Originally, the backend was a standalone repo: [real-time-fraud-detection-engine
 ---
 
 ## Repository Structure
+```
 real-time-fraud-detection/
+├── backend/
+│   ├── main.py              # FastAPI server with WebSocket
+│   ├── real_model.py        # XGBoost model wrapper
+│   ├── train_model.py       # Model training pipeline
+│   ├── model_utils.py       # Versioning utilities
+│   ├── stress_test_beta.py  # Performance testing
+│   ├── requirements.txt
+│   ├── model_versions/      # Trained models (v1-v5)
+│   └── plot_figures/        # EDA visualizations
 │
-├─ backend/ # Python backend with ML models and utilities
-├─ frontend/ # React frontend with real-time dashboard
-├─ .gitignore
-└─ README.md
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/      # React UI components
+│   │   ├── hooks/           # WebSocket hook
+│   │   └── App.jsx          # Main dashboard
+│   ├── package.json
+│   └── tailwind.config.js
+│
+├── .gitignore
+└── README.md
+```
 
 ---
 
@@ -99,7 +117,8 @@ cd frontend
 npm install  # only first time
 npm start
 
-Then open http://localhost:3000 in your browser
+Then open http:localhost:3000 in your browser
+
 ---
 
 ## Features
