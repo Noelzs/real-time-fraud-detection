@@ -91,7 +91,7 @@ You'll need these files:
 Put them in your project folder.
 
 ### 2. **Setup**
-# Install what you need
+Install what you need
 pip install -r requirements.txt
 
 ### 3. **Train Your First Model**
@@ -158,3 +158,7 @@ Then open http:localhost:3000 in your browser
 - TailwindCSS
 - WebSocket API
 - Recharts (for potential future graphs)
+
+## License
+
+This project is for educational purposes. Make sure you have the right to use the IEEE-CIS dataset from Kaggle.
