@@ -1,0 +1,8 @@
+{
+  "version": "v1_20251108_224448",
+  "timestamp": "20251108_224448",
+  "note": "Initial model - RandomForest with real-time features",
+  "model_type": "RandomForest",
+  "features_count": 17,
+  "performance": 0.7717588478421231
+}

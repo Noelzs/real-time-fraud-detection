@@ -1,0 +1,48 @@
+{
+  "version": "v3_xg_20251109_033903",
+  "timestamp": "20251109_033903",
+  "note": "XGBoost- AUC: 0.8018 (+0.0266 improvement)",
+  "model_type": "xg",
+  "features_count": 17,
+  "performance": 0.8017639312251218,
+  "full_performance": {
+    "roc_auc": 0.8017639312251218,
+    "classification_report": {
+      "0": {
+        "precision": 0.9661325873177348,
+        "recall": 0.9993072849075796,
+        "f1-score": 0.9824399579317598,
+        "support": 114044.0
+      },
+      "1": {
+        "precision": 0.46621621621621623,
+        "recall": 0.016978346456692914,
+        "f1-score": 0.03276353276353276,
+        "support": 4064.0
+      },
+      "accuracy": 0.9655061469163816,
+      "macro avg": {
+        "precision": 0.7161744017669756,
+        "recall": 0.5081428156821363,
+        "f1-score": 0.5076017453476462,
+        "support": 118108.0
+      },
+      "weighted avg": {
+        "precision": 0.9489308725130088,
+        "recall": 0.9655061469163816,
+        "f1-score": 0.9497623663047431,
+        "support": 118108.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        113965,
+        79
+      ],
+      [
+        3995,
+        69
+      ]
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": "v4_rf_20251109_154848",
+  "timestamp": "20251109_154848",
+  "note": "RandomForest- AUC: 0.7355",
+  "model_type": "rf",
+  "features_count": 17,
+  "performance": 0.7355113378515707,
+  "full_performance": {
+    "roc_auc": 0.7355113378515707,
+    "classification_report": {
+      "0": {
+        "precision": 0.9766808325160727,
+        "recall": 0.9283753689989124,
+        "f1-score": 0.9519156732071263,
+        "support": 19309.0
+      },
+      "1": {
+        "precision": 0.1597812879708384,
+        "recall": 0.38060781476121563,
+        "f1-score": 0.22507488232777065,
+        "support": 691.0
+      },
+      "accuracy": 0.90945,
+      "macro avg": {
+        "precision": 0.5682310602434556,
+        "recall": 0.654491591880064,
+        "f1-score": 0.5884952777674485,
+        "support": 20000.0
+      },
+      "weighted avg": {
+        "precision": 0.9484569532520348,
+        "recall": 0.90945,
+        "f1-score": 0.9268033238822445,
+        "support": 20000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        17926,
+        1383
+      ],
+      [
+        428,
+        263
+      ]
+    ]
+  }
+}
